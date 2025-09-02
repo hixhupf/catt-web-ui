@@ -2,7 +2,7 @@
 
 Ein einfaches, geräte-zentriertes Web-Dashboard zur Steuerung von `catt` (Cast All The Things) auf einem Server. Es ermöglicht das Hochladen und Streamen von lokalen Mediendateien auf mehrere Chromecast-Geräte im Netzwerk.
 
-![Screenshot des Dashboards](./assets/dashboard-screenshot.jpg)
+![Screenshot des Dashboards](./assets/sample_dashboard.jpg)
 
 ## Features
 
