@@ -1,0 +1,58 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.20.200:5000
+Press CTRL+C to quit
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET / HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /static/script.js HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /static/style.css HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /api/media HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /media/Samsung-TV.jpg HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.20.30 - - [01/Sep/2025 15:15:36] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.20.30 - - [01/Sep/2025 15:15:41] "GET /api/devices HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:15:47] "POST /api/cast HTTP/1.1" 200 -
+Casting local file /opt/catt-web-ui/media/Samsung-TV.jpg...
+Showing "Samsung-TV" on "Samsung Frame 65"...
+Serving local file(s).
+[(192.168.20.163):8009] Failed to connect to service HostServiceInfo(host='192.168.20.163', port=8009), retrying in 5.0s
+192.168.20.30 - - [01/Sep/2025 15:22:52] "POST /api/upload HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:22:54] "GET /api/media HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:22:54] "GET /media/Alpha_Herbst_2025.jpg HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:23:01] "POST /api/cast HTTP/1.1" 200 -
+Casting local file /opt/catt-web-ui/media/Alpha_Herbst_2025.jpg...
+Showing "Alpha_Herbst_2025" on "Samsung Frame 65"...
+Serving local file(s).
+192.168.20.30 - - [01/Sep/2025 15:37:28] "POST /api/control HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:37:47] "POST /api/cast HTTP/1.1" 200 -
+Casting local file /opt/catt-web-ui/media/Alpha_Herbst_2025.jpg...
+Showing "Alpha_Herbst_2025" on "Samsung Frame 65"...
+Serving local file(s).
+192.168.20.30 - - [01/Sep/2025 15:46:34] "POST /api/control HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 15:46:34] "POST /api/control HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.20.200:5000
+[33mPress CTRL+C to quit[0m
+192.168.20.30 - - [01/Sep/2025 16:18:50] "GET / HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 16:18:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+192.168.20.30 - - [01/Sep/2025 16:18:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+192.168.20.30 - - [01/Sep/2025 16:18:50] "GET /api/media HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 16:18:50] "[36mGET /media/Welcome_to_Church_August_2025.jpg HTTP/1.1[0m" 304 -
+192.168.20.30 - - [01/Sep/2025 16:18:50] "[36mGET /media/Alpha_Herbst_2025.jpg HTTP/1.1[0m" 304 -
+192.168.20.30 - - [01/Sep/2025 16:18:50] "[36mGET /media/Samsung-TV.jpg HTTP/1.1[0m" 304 -
+192.168.20.30 - - [01/Sep/2025 16:18:56] "GET /api/devices HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 16:19:02] "POST /api/cast HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 16:19:02] "[36mGET /media/Alpha_Herbst_2025.jpg HTTP/1.1[0m" 304 -
+Casting local file /opt/catt-web-ui/media/Alpha_Herbst_2025.jpg...
+Showing "Alpha_Herbst_2025" on "Samsung Frame 65"...
+Serving local file(s).
+192.168.20.72 - - [01/Sep/2025 16:19:02] "GET /?loaded_from_catt HTTP/1.1" 200 - image/jpeg - 180.72 KB
+192.168.20.30 - - [01/Sep/2025 16:19:42] "GET /media/Alpha_Herbst_2025.jpg HTTP/1.1" 200 -
+192.168.20.30 - - [01/Sep/2025 16:19:56] "POST /api/control HTTP/1.1" 200 -

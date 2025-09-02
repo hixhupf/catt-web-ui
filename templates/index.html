@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel im Browser-Tab geändert -->
+    <title>Fernseh-Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <!-- Überschrift auf der Seite geändert -->
+        <h1>Fernseh-Dashboard</h1>
+    </header>
+    
+    <main id="device-grid">
+        <!-- Device cards will be inserted here by JavaScript -->
+    </main>
+
+    <div class="card" id="upload-card">
+        <h2>Datei hochladen</h2>
+        <form id="upload-form">
+            <input type="file" name="file" id="file-input" required>
+            <button type="submit">Hochladen</button>
+        </form>
+    </div>
+
+    <!-- File Selection Modal (hidden by default) -->
+    <div id="file-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Datei zum Streamen auswählen</h2>
+            <div id="modal-file-list">
+                <!-- Media files will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

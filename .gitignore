@@ -1,0 +1,12 @@
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+ENV/
+
+# Cache & temporäre Dateien
+__pycache__/
+*.pyc
+
+# System-Dateien
+.DS_Store
